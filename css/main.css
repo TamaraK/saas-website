@@ -14,12 +14,35 @@ html {
 
 h1 {
   font-family: 'Pacifico', cursive;
+  color: #443B97;
 }
 
 h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #994FBA;
+}
+
+h3 {
   font-family: 'Quicksand', sans-serif;
 }
 
 li {
   font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.free {
+
+}
+
+.base {
+  background-color: #F9D8FF;
+
+}
+
+.adv {
+  background-color: #EA92FA;
 }
