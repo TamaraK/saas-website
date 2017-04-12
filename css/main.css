@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  background-color: #FFF;
 }
 
 *, *::before, *::after {
@@ -22,8 +23,35 @@ h2 {
   color: #994FBA;
 }
 
+.titles {
+  color: #443B97;
+}
+
+.banner-m {
+  background-color: #CFFF36;
+}
+
+.banner-f {
+  background-color: #CFFF36;
+}
+
 h3 {
   font-family: 'Quicksand', sans-serif;
+  color: #FFF;
+}
+
+nav {
+  color: #443B97;
+  font-weight: bold;
+}
+
+.tools {
+  border: 2px;
+}
+
+.cc {
+  font-family: 'Quicksand', sans-serif;
+  color: #;
 }
 
 li {
@@ -32,10 +60,21 @@ li {
 
 .btn {
   font-family: 'Quicksand', sans-serif;
+  background-color: #AEE800;
+  border: none;
+  font-weight: bold;
 }
 
-.free {
+.one {
+  background-color: #443B97;
+}
+.price {
+  color: #443B97;
+}
 
+
+.free {
+  background-color: #EFEEFF;
 }
 
 .base {
@@ -45,4 +84,32 @@ li {
 
 .adv {
   background-color: #EA92FA;
+}
+
+.swat {
+  background-color: #6FFFFF;
+}
+
+.pal {
+  background-color: #FFA420;
+}
+
+.brush {
+  background-color: #FFA420;
+}
+
+.tep {
+  background-color: #6FFFFF;
+}
+
+.dev {
+  background-color:
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #002A5C;
 }
