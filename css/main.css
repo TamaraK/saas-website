@@ -40,6 +40,10 @@ h3 {
   color: #FFF;
 }
 
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
 nav {
   color: #443B97;
   font-weight: bold;
@@ -72,6 +76,9 @@ li {
   color: #443B97;
 }
 
+a:hover {
+  color: #054207;
+}
 
 .free {
   background-color: #EFEEFF;
