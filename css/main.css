@@ -16,7 +16,7 @@ html {
 h1 {
   font-family: 'Pacifico', cursive;
   color: #443B97;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -122,6 +122,11 @@ a:hover {
 
 a {
   text-decoration: none;
+  color: #443B97;
+}
+
+.sign-up {
+  font-family: 'Quicksand', sans-serif;
 }
 
 footer {
