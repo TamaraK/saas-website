@@ -16,7 +16,7 @@ html {
 h1 {
   font-family: 'Pacifico', cursive;
   color: #443B97;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -33,6 +33,11 @@ h2 {
 }
 
 h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #443B97;
+}
+
+h4 {
   font-family: 'Quicksand', sans-serif;
   color: #FFF;
 }
@@ -56,7 +61,7 @@ nav {
 
 .cc {
   font-family: 'Quicksand', sans-serif;
-  color: #;
+  color: #FFF;
 }
 
 li {
@@ -73,6 +78,7 @@ li {
 .one {
   background-color: #443B97;
 }
+
 .price {
   color: #443B97;
 }
@@ -95,19 +101,19 @@ a:hover {
 }
 
 .swat {
-  background-color: #6FFFFF;
+  background-color: #FFFCF5;
 }
 
 .pal {
-  background-color: #FFA420;
+  background-color: #FFFCF5;
 }
 
 .brush {
-  background-color: #FFA420;
+  background-color: #FFFCF5;
 }
 
 .tep {
-  background-color: #6FFFFF;
+  background-color: #FFFCF5;
 }
 
 .dev {
