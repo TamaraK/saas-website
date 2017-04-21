@@ -13,19 +13,36 @@
 <section class="gutter-1-2">
 <body>
 <div class="banner">
-  <header>
-    <i>
-      <img class="icon i-96" src="images/gen-logo.svg" alt="">
-    </i>
-    <nav class="text-right pin-top-right pad-t-1-2">
-      <input type="checkbox" class="nav-check" id="nav-check">
-        <ul class="nav kilo list-group-inline">
-          <li class="push-right"><a href="index.html">Home</a></li>
-          <li class="push-right"><a href="tour.html">Features</a></li>
-          <li class="push-right"><a href="pricing.html">Pricing</a></li>
-          <li class="push-right"><a href="sign-up.html">Sign-up</a></li>
-        </ul>
-    </nav>
+  <header class="nav pin">
+    <a href="index.html">
+      <i>
+        <img class="icon i-96" src="images/gen-logo.svg" alt="">
+      </i>
+    </a>
+    <div class="grid">
+      <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 gutter-1-2">
+        <nav class="text-right pin-top-right pad-t-1-2">
+            <ul class="nav kilo list-group-inline">
+              <li class="push-right"><a href="index.html">Home</a></li>
+              <li class="push-right"><a href="tour.html">Features</a></li>
+              <li class="push-right"><a href="pricing.html">Pricing</a></li>
+              <li class="push-right"><a href="sign-up.html">Sign-up</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="unit xs-1-2 s-1-2 unit-m-hidden unit-l-hidden gutter-1-2">
+        <nav class="pin-top-right pad-t-1-2 push-r-1-2">
+          <div class="dropdown push-1-2">
+            <button class="dropbtn">Menu</button>
+            <ul class="dropdown-content list-group">
+              <li><a href="tour.html">Features</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="sign-up.html">Sign-up</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main>
@@ -42,9 +59,10 @@
       <div class="grid tools">
         <div class="unit xs-1 s-1 m-1-2 text-center max-length">
           <h2 class="titles zetta">Tools</h2>
-          <i>
-            <img>
-          </i>
+          <label class="switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+          </label>
           <p class="tera">We have a variety of Swatches, Palettes, Brushes and Templates for you to bring your wildest emoji dreams come true.  Hunfreds of choices and unlimited combinations, everything is possible with our tools available to you over all of your devices.</p>
         </div>
         <div class="unit xs-1 s-1 m-1-2 text-center max-length">
@@ -60,7 +78,7 @@
             <ul class="grid ">
               <li class="free unit xs-1 s-1 m-1-3 l-1-3 text-center">
                 <div>
-                  <h3 class="price">Free</h3>
+                  <h3 class="price pad-t">Free</h3>
                 </div>
                 <ul>
                   <li class="yotta">$0.00</li>
@@ -75,7 +93,7 @@
 
               <li class="base unit xs-1 s-1 m-1-3 l-1-3 text-center">
                 <div>
-                  <h3 class="price">Base Set</h3>
+                  <h3 class="price pad-t">Base Set</h3>
                 </div>
                 <ul>
                   <li class="yotta">$4.00</li>
@@ -90,7 +108,7 @@
 
               <li class="adv unit xs-1 s-1 m-1-3 l-1-3 text-center">
                 <div>
-                  <h3 class="price">Advanced</h3>
+                  <h3 class="price pad-t">Advanced</h3>
                 </div>
                 <ul>
                   <li class="yotta">$10.00</li>
@@ -207,8 +225,8 @@
     <div>
       <a class="btn text-center milli push-2" href="pricing.html">Sign Up Now</a>
     </div>
-    <div class="text-center">
-      <table class="max-length micro foot">
+    <div>
+      <table class ="foot-table micro foot">
         <caption></caption
         <thead>
           <tr>
@@ -229,7 +247,7 @@
         </tbody>
       </table>
     </div>
-    <p class="cc micro">c Genmoji</p>
+    <p class="cc micro pad-b-2">c Genmoji</p>
 
 
   </footer>
