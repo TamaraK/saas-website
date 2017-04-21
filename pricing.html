@@ -11,34 +11,52 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand" rel="stylesheet">
 </head>
 <body>
-<section class="gutter-1-2">
 <div class="banner">
-  <header>
-    <i>
-      <img class="icon i-96" src="images/gen-logo.svg" alt="">
-    </i>
-    <nav class="text-right pin-top-right pad-t-1-2">
-      <ul class="list-group-inline">
-        <li class="push-right"><a href="index.html">Home</a></li>
-        <li class="push-right"><a href="tour.html">Features</a></li>
-        <li class="push-right"><a href="pricing.html">Pricing</a></li>
-        <li class="push-right"><a href="sign-up.html">Sign-up</a></li>
-      </ul>
-    </nav>
+  <header class="nav pin">
+    <a href="index.html">
+      <i>
+        <img class="icon i-96" src="images/gen-logo.svg" alt="">
+      </i>
+    </a>
+    <div class="grid">
+      <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 gutter-1-2">
+        <nav class="text-right pin-top-right pad-t-1-2">
+            <ul class="nav kilo list-group-inline">
+              <li class="push-right"><a href="index.html">Home</a></li>
+              <li class="push-right"><a href="tour.html">Features</a></li>
+              <li class="push-right"><a href="pricing.html">Pricing</a></li>
+              <li class="push-right"><a href="sign-up.html">Sign-up</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="unit xs-1-2 s-1-2 unit-m-hidden unit-l-hidden gutter-1-2">
+        <nav class="pin-top-right pad-t-1-2 push-r-1-2">
+          <div class="dropdown push-1-2">
+            <button class="dropbtn peta">Menu</button>
+            <ul class="dropdown-content list-group">
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="tour.html">Features</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="sign-up.html">Sign-up</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main>
     <section class="text-center">
-      <h1 class="">Fit our Plan to You</h1>
+      <h1 class="pad-t-1-2">Fit our Plan to You</h1>
       <h2 class="mega pad-b max-length island">With three great options we have a plan that is perfect for your use</h2>
     </section>
-</div>
+
   <div>
     <section class="wrapper pad-b gutter-2">
       <ul class="grid">
         <li class="free unit xs-1 s-1 m-1-3 l-1-3 text-center">
         <div>
-          <h3 class="pad-t">Free</h3>
+          <h3 class="pad-t pricing">Free</h3>
         </div>
         <ul class="price">
           <li>10 Free Templates</li>
@@ -56,7 +74,7 @@
 
         <li class="base unit xs-1 s-1 m-1-3 l-1-3 text-center">
           <div>
-            <h3 class="pad-t">Base Set</h3>
+            <h3 class="pad-t pricing">Base Set</h3>
           </div>
           <ul class="price">
             <li>20 Free Templates</li>
@@ -75,7 +93,7 @@
 
         <li class="adv unit xs-1 s-1 m-1-3 l-1-3 text-center">
           <div>
-            <h3 class="pad-t">Advanced</h3>
+            <h3 class="pad-t pricing">Advanced</h3>
           </div>
           <ul class="price">
             <li>50 Free Templates</li>
@@ -92,7 +110,8 @@
         </li>
       </ul>
     </section>
-  </main>
+  </div>
+</main>
 </section>
 <footer class="text-center">
   <h4 class="milli pad-top">Join thousands of users customizing their text today</h4>
@@ -100,7 +119,7 @@
     <a class="btn text-center milli push-2" href="sign-up.html">Sign Up Now</a>
   </div>
   <table class="max-length island micro foot">
-    <caption></caption
+    <caption></caption>
     <thead>
       <tr>
         <th colspan="2" scope="col" class="text-center">Contact us</th>
@@ -119,6 +138,6 @@
       </tr>
     </tbody>
   </table>
-  <p class="cc micro">c Genmoji</p>
+  <p class="cc micro pad-b-2">c Genmoji</p>
 </footer>
 </body>

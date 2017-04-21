@@ -11,20 +11,38 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand" rel="stylesheet">
 </head>
 <body>
-<section class="gutter-1-2">
 <div class="banner">
-  <header>
-    <i>
-      <img class="icon i-96" src="images/gen-logo.svg" alt="">
-    </i>
-    <nav class="text-right pin-top-right pad-t-1-2">
-      <ul class="kilo list-group-inline">
-        <li class="push-right"><a href="index.html">Home</a></li>
-        <li class="push-right"><a href="tour.html">Features</a></li>
-        <li class="push-right"><a href="pricing.html">Pricing</a></li>
-        <li class="push-right"><a href="sign-up.html">Sign-up</a></li>
-      </ul>
-    </nav>
+  <header class="nav pin">
+    <a href="index.html">
+      <i>
+        <img class="icon i-96" src="images/gen-logo.svg" alt="">
+      </i>
+    </a>
+    <div class="grid">
+      <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 gutter-1-2">
+        <nav class="text-right pin-top-right pad-t-1-2">
+            <ul class="nav kilo list-group-inline">
+              <li class="push-right"><a href="index.html">Home</a></li>
+              <li class="push-right"><a href="tour.html">Features</a></li>
+              <li class="push-right"><a href="pricing.html">Pricing</a></li>
+              <li class="push-right"><a href="sign-up.html">Sign-up</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="unit xs-1-2 s-1-2 unit-m-hidden unit-l-hidden gutter-1-2">
+        <nav class="pin-top-right pad-t-1-2 push-r-1-2">
+          <div class="dropdown push-1-2">
+            <button class="dropbtn peta">Menu</button>
+            <ul class="dropdown-content list-group">
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="tour.html">Features</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="sign-up.html">Sign-up</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
   </header>
   <main>
     <section class="text-center">
@@ -39,7 +57,7 @@
     <thead>
       <tr>
         <th scope="col">
-          <span class="peta">Swatches</span>
+          <span class="peta island">Swatches</span>
           <i>
             <img class="icon i-100 push-1-2" src="images/swatches.svg" alt="">
           </i>
@@ -50,7 +68,7 @@
     <tbody>
       <tr>
         <th scope="row">
-          <span class="peta">Palettes</span>
+          <span class="peta island">Palettes</span>
           <i>
             <img class="icon i-125 push-1-2" src="images/colours.svg" alt="">
           </i>
@@ -59,7 +77,7 @@
       </tr>
       <tr>
         <th scope="row">
-          <span class="peta">Brushes</span>
+          <span class="peta island">Brushes</span>
           <i>
             <img class="icon i-125 push-2" src="images/brushes.svg" alt="">
           </i>
@@ -68,7 +86,7 @@
       </tr>
       <tr>
         <th scope="row">
-          <span class="peta">Templates</span>
+          <span class="peta island">Templates</span>
           <i>
             <img class="icon i-125 push-1-2" src="images/templates.svg" alt="">
           </i>
@@ -118,7 +136,7 @@
         </tr>
       </tbody>
     </table>
-    <p class="cc micro">c Genmoji</p>
+    <p class="cc micro pad-b-2">c Genmoji</p>
   </footer>
 </section>
 </body>

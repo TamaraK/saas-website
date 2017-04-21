@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -14,45 +14,44 @@ html {
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
-  color: #443B97;
+  font-family: Pacifico, cursive;
+  color: #443b97;
   font-size: 4rem;
   line-height: inherit;
 }
 
 h2 {
-  font-family: 'Quicksand', sans-serif;
-  color: #994FBA;
+  font-family: Quicksand, sans-serif;
+  color: #994fba;
 }
 
 span {
-  font-family: 'Quicksand', sans-serif;
-  color: #443B97;
+  font-family: Quicksand, sans-serif;
+  color: #443b97;
 }
 
 .banner {
-  background-color: #EDFFD6;
+  background-color: #edffd6;
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;
-  color: #443B97;
+  font-family: Quicksand, sans-serif;
+  color: #443b97;
 }
 
 h4 {
-  font-family: 'Quicksand', sans-serif;
-  color: #FFF;
+  font-family: Quicksand, sans-serif;
+  color: #fff;
 }
 
 p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 nav {
-  color: #443B97;
+  color: #443b97;
   font-weight: bold;
 }
-
 
 .dropbtn {
   background-color: #443b97;
@@ -61,7 +60,7 @@ nav {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .dropdown {
@@ -72,7 +71,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #AEE800;
+  background-color: #aee800;
   min-width: 50px;
   z-index: 1;
   right: 0;
@@ -99,12 +98,17 @@ nav {
 .dropdown:hover .dropbtn {
   background-color: #aee800;
   border: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 
+}
+
+.pricing {
+  font-size: 2rem;
 }
 
 .price {
   text-decoration: none;
+  color: #443b97;
 }
 
 .tools {
@@ -112,12 +116,12 @@ nav {
 }
 
 .cc {
-  font-family: 'Quicksand', sans-serif;
-  color: #FFF;
+  font-family: Quicksand, sans-serif;
+  color: #fff;
 }
 
 li {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 th {
@@ -130,8 +134,8 @@ td {
 }
 
 .foot {
-  font-family: 'Quicksand', sans-serif;
-  color: #FFF;
+  font-family: Quicksand, sans-serif;
+  color: #fff;
 }
 
 .foot-table {
@@ -139,18 +143,14 @@ td {
 }
 
 .btn {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #AEE800;
+  font-family: Quicksand, sans-serif;
+  background-color: #aee800;
   border: none;
   font-weight: bold;
 }
 
 .one {
-  background-color: #443B97;
-}
-
-.price {
-  color: #443B97;
+  background-color: #443b97;
 }
 
 a:hover {
@@ -158,31 +158,31 @@ a:hover {
 }
 
 .free {
-  background-color: #EFEEFF;
+  background-color: #efeeff;
 }
 
 .base {
-  background-color: #F9D8FF;
+  background-color: #f9d8ff;
 
 }
 
 .adv {
-  background-color: #EA92FA;
+  background-color: #ea92fa;
 }
 
 .dev {
-  background-color: #FFFCF5;
+  background-color: #fffcf5;
 }
 
 a {
   text-decoration: none;
-  color: #443B97;
+  color: #443b97;
 }
 
 .sign-up {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 footer {
-  background-color: #002A5C;
+  background-color: #002a5c;
 }
