@@ -79,6 +79,11 @@ td {
   border-bottom: none;
 }
 
+.foot {
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF;
+}
+
 .btn {
   font-family: 'Quicksand', sans-serif;
   background-color: #AEE800;
@@ -111,24 +116,8 @@ a:hover {
   background-color: #EA92FA;
 }
 
-.swat {
-  background-color: #FFFCF5;
-}
-
-.pal {
-  background-color: #FFFCF5;
-}
-
-.brush {
-  background-color: #FFFCF5;
-}
-
-.tep {
-  background-color: #FFFCF5;
-}
-
 .dev {
-  background-color:
+  background-color: #FFFCF5;
 }
 
 a {
