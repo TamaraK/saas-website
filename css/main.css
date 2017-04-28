@@ -58,6 +58,10 @@ p {
   font-family: Quicksand, sans-serif;
 }
 
+.formm {
+  color: #fff;
+}
+
 nav {
   color: #443b97;
   font-weight: bold;
@@ -195,4 +199,12 @@ a {
 
 footer {
   background-color: #002a5c;
+}
+
+thead {
+  color: #002a5c;
+}
+
+tbody {
+  color: #002a5c;
 }
